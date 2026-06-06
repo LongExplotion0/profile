@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>ろんぐりんく</title>
+    <div class="content">
     <p>このサイトは試験的なものであり、github上でホストしています。</p>
     <p>html,css等を使用しています></p>
         <p><a href="https://github.com/longexplotion0" target="_blank">GitHub</a></p>
+        </div>
     
     <style> /*CSS*/
         .center-text {
@@ -15,7 +17,26 @@
             background-image: url('background.png');
             background-size: cover;
             background-attachment: fixed;
+            background-image container
+            {
+                position: relative;
+                z-index: 1;
+            }
+
+            
         }
+
+        {
+            .content {
+                position: relative;
+                z-index: 2;
+            }
+        }
+
+        {
+
+        }
+        
     </style>
 </head>
 <body>
@@ -24,7 +45,7 @@
     </div>
 
     <h2 class="center-text">
-        <p><font color="blue">リンク一覧</font></p>
+        <p class="link-label"></p><font color="blue">リンク一覧</font></p>
         <a href="https://twitter.com/longexplotion0" target="_blank">Twitter</a>
     </h2>
 </body>
